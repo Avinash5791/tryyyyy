@@ -6,23 +6,16 @@
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,Hiragino Sans GB,Microsoft Yahei,sans-serif;
 }
 html,body{
-  display: grid;
   /* place-items:center; */
   background: #ffffff;
 }
-.main_div{
-  width: 100%;
-  background: #fff;
-  /* padding: 30px; */
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-}
+
 form {
   margin-top: 9px;
 }
 form .input_box{
   height: 50px;
-  width: 100%;
+
   position: relative;
   margin-top: 25px;
 }
