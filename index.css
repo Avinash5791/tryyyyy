@@ -11,7 +11,7 @@ html,body{
   background: #ffffff;
 }
 .main_div{
-  width: 1214px;
+  width: 100%;
   background: #fff;
   padding: 30px;
   border-radius: 5px;
@@ -39,24 +39,6 @@ html,body{
   text-decoration: none;
   transition: all 0.3s linear;
 }
-.social_icons a span{
-  margin-left: 5px;
-  font-size: 18px;
-}
-.social_icons a:first-child{
-  margin-right: 5px;
-  background: #4267B2;
-}
-.social_icons a:first-child:hover{
-  background: #375695;
-}
-.social_icons a:last-child{
-  margin-left: 5px;
-  background: #1DA1F2;
-}
-.social_icons a:last-child:hover{
-  background: #0d8bd9;
-}
 form {
   margin-top: 9px;
 }
@@ -76,9 +58,6 @@ form .input_box{
   padding-left: 45px;
   font-size: 17px;
   transition: all 0.3s ease;
-}
-.input_box input:focus{
-  border-color: #009688;
 }
 .btt{
   width: 30%;
@@ -101,35 +80,6 @@ form .input_box{
   transform: translateY(-50%);
   color: grey;
 }
-form .option_div{
-  margin-top: 5px;
-  display: flex;
-  justify-content: space-between;
-}
-.option_div .check_box{
-  display: flex;
-  align-items: center;
-}
-.option_div span{
-  margin-left: 5px;
-  font-size: 16px;
-  color: #333;
-}
-.option_div .forget_div a{
-  font-size: 16px;
-  color: #009688;
-}
-.button input{
-  padding-left: 0;
-  background: #009688;
-  color: #fff;
-  border: none;
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s linear;
-}
-
 
 
 .topnav {
